@@ -15,7 +15,7 @@ for i in range(16):
     plt.imshow(training_images[i], cmap=plt.cm.binary)
     plt.xlabel(class_names[training_labels[i][0]])
 
-# plt.show()
+plt.show()
 
 training_images = training_images[:20000]
 training_labels = training_labels[:20000]
